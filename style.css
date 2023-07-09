@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(90, 85, 85);
+    font: 15pt normal Arial;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    height: 400px;
+    width: 600px;
+    background: #F5F5FA;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    position: relative;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+div#foto {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 10px;
+    border: 3px black solid;
+}
+
+div#msg {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Belanosima';
+}
+
+a {
+    margin-top: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+      color:black;
+}
+
+a:hover {
+    scale: 1.2;
+}
+
+
